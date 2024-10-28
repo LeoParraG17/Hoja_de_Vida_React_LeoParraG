@@ -3,7 +3,7 @@ import './styles.css';
 
 const App = () => (
   <div className="container">
-    <header>
+    <header id="top">
       <h1>Leonardo Parra Galeano</h1>
       <h2>Tecnologo en sistemas de la infomacion</h2>
       <img src="foto_hoja_vida.jpg" alt="Tu foto" />
@@ -13,7 +13,7 @@ const App = () => (
           <li><a href="#experiencia">Experiencia</a></li>
           <li><a href="#educacion">Educación</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -44,6 +44,7 @@ const App = () => (
         trabajar en equipo, aportar ideas innovadoras que contribuyan al
         correcto desarrollo de las actividades.
       </p>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
     <section id="experiencia">
@@ -55,6 +56,7 @@ const App = () => (
         <li><strong>Técnico sistemas soporte nivel 1 y 2</strong> - ColombiaNet Solutions - Enero 2012 – 2018</li>
         <li><strong>Técnico sistemas soporte nivel 1 y 2</strong> - Intituto de Diagnostico Medico IDIME - Julio 2018 – Hasta la fecha</li>
       </ul>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
     <section id="educacion">
@@ -65,6 +67,7 @@ const App = () => (
         <li><strong>Tecnico en sistemas</strong> - Unitecnica - 2019</li>
         <li><strong>Tecnologo en sistemas</strong> - Uniersidad de caldas - 2024</li>
       </ul>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
     <section id="habilidades">
@@ -82,9 +85,10 @@ const App = () => (
         <li>Instalacion CCTV</li>
         <li>Configuración de recursos compartidos y creación de usuarios del active directory</li>
       </ul>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
-    <section id="Hobbies">
+    <section id="hobbies">
       <h2>Hobbies</h2>
       <ul>
         <li>Trotar</li>
@@ -92,26 +96,33 @@ const App = () => (
         <li>Escuchar musica</li>
         <li>Tocar percusion</li>
       </ul>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
     <section id="contacto">
       <h2>Contacto</h2>
       <form action="#" method="post">
-        <label for="nombre">Nombre:</label>
+        <label htmlFor="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required />
         <br />
-        <label for="email">Correo electrónico:</label>
+        <label htmlFor="email">Correo electrónico:</label>
         <input type="email" id="email" name="email" required />
         <br />
-        <label for="mensaje">Mensaje:</label>
+        <label htmlFor="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" required></textarea>
         <br />
         <input type="submit" value="Enviar" />
       </form>
+      <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
 
     <footer>
       <p>&copy; Leonardo Parra Galeano - 2024 </p>
+      <div className="social-icons">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
     </footer>
   </div>
 );
