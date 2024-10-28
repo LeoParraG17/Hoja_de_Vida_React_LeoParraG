@@ -54,7 +54,7 @@ const App = () => (
         <li><strong>Practicante departamento de soporte</strong> - Campus virtual universidad de Manizales - enero 2 2009 - Julio 2 2009</li>
         <li><strong>Contratista chec ayudante, jefe grupo</strong> - IMPS Ingeniería - marzo 2011 – diciembre 2011</li>
         <li><strong>Técnico sistemas soporte nivel 1 y 2</strong> - ColombiaNet Solutions - Enero 2012 – 2018</li>
-        <li><strong>Técnico sistemas soporte nivel 1 y 2</strong> - Intituto de Diagnostico Medico IDIME - Julio 2018 – Hasta la fecha</li>
+        <li><strong>Auxiliar de sistemas nivel 1 y 2</strong> - Intituto de Diagnostico Medico IDIME - Julio 2018 – Hasta la fecha</li>
       </ul>
       <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
@@ -64,8 +64,8 @@ const App = () => (
       <ul>
         <li><strong>Basica Primaria</strong> - Escuela Policarpa Salavarrieta - 1995 - 1999</li>
         <li><strong>Secundaria</strong> - Colegio la sagrada familia - 2000  2005</li>
-        <li><strong>Tecnico en sistemas</strong> - Unitecnica - 2019</li>
-        <li><strong>Tecnologo en sistemas</strong> - Uniersidad de caldas - 2024</li>
+        <li><strong>Tecnico en sistemas</strong> - Unitecnica - 2009</li>
+        <li><strong>Tecnologo en sistemas</strong> - Uniersidad de Caldas - 2024</li>
       </ul>
       <a href="#top" className="back-to-top">Volver al Menú</a>
     </section>
